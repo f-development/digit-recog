@@ -3,10 +3,6 @@ version: "3"
 services:
   apache:
     build: .
-    image: calvincaulfield/ai
     restart: always
-    network_mode: "host"
     environment:
       - AI_PORT
-      - AWS_ACCESS_KEY_ID
-      - AWS_SECRET_ACCESS_KEY

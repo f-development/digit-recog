@@ -1,5 +1,1 @@
-export $(cat env/env-${HW_ENV})
-source secret/secret
-export SW_ENV=dev
-
-docker-compose --project-name calvincaulfield-ai "$@"
+docker-compose --project-name f-dev-digit-recog "$@"
