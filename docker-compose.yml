@@ -4,5 +4,7 @@ services:
   apache:
     build: .
     restart: always
-    environment:
-      - AI_PORT
+    ports:
+      - 2010:2010
+    volumes:
+      - ./html:/var/www/html
