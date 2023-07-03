@@ -1,7 +1,8 @@
 body {
 	overflow-y: scroll;
 	font-family: Malgun Gothic;
-	font-size: 20px;;
+	font-size: 20px;
+	;
 	width: 800px;
 	margin: 0 auto;
 }
@@ -10,7 +11,8 @@ table {
 	border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
 	padding: 5px;
 	border: solid 1px;
 }
@@ -21,10 +23,6 @@ td, th {
 	margin: 50px auto;
 	border: 1px solid;
 	position: relative;
-}
-
-#input-canvas {
-
 }
 
 #center-container {
@@ -38,12 +36,11 @@ td, th {
 	left: -50%;
 	float: left;
 	padding: 0;
-	margin-top:20px;
+	margin-top: 20px;
 	font-size: 80%;
 }
 
 button {
 	display: block;
 	padding: 25px;
-	//font-size: 20px;
 }
