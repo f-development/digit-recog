@@ -1,12 +1,8 @@
 # digit-recognizer
 ### Website
-[digit recognizer](http://ai.minami.link)
+[digit recognizer]()
 
-### Webapp to recognize a handwritten digit 
-
-#### Comparing two methods
-- handcrafted neural network implementation
-- Amazon Machine Learning service.
+### Webapp to recognize a handwritten digit
 
 
 #### Data
