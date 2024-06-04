@@ -112,6 +112,7 @@ matrix<T>::operator=(matrix<T> const &rhs)
 			lhs(i, j) = rhs(i, j);
 		}
 	}
+	return *this;
 }
 
 template <typename T>
