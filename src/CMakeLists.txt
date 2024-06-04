@@ -15,6 +15,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 project (DigitRecognizer)
 
 add_executable (DigitRecognizer main)
+set_target_properties(DigitRecognizer PROPERTIES OUTPUT_NAME DigitRecognizer.exe)
 
 add_library (NeuralNetwork neural_network)
 add_library (HandwritternDigitAnalyzer handwritten_digit_analyzer)
