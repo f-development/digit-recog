@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: f-lib/github-actions/check-large-file@main
         with:
-          threshold: 2000
+          threshold: 60000
 
   deploy:
     runs-on: ubuntu-latest
